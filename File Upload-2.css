@@ -1,0 +1,120 @@
+
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;                 
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #6990f2;
+}
+.wrapper{
+    width: 430px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+}
+.wrapper header{
+    color: #6990f2;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper form{
+    height: 167px;
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px dashed #6990f2;
+}
+form :where(i, p){
+    color: #6990f2;
+}
+form i{
+    font-size: 50px;
+}
+form p{
+    font-size: 16px;
+    margin-top: 15px;
+}
+section .row{
+    background: #e9f0ff;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .row i{
+    font-size: 30px;
+    color: #6990f2;
+}
+section .details span{
+    font-size: 14px;
+}
+.Progress-area .row .content{
+    width: 100%;
+    margin-left: 15px;
+}
+.Progress-area .details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    justify-content: space-between;
+}
+.Progress-area .Progress-bar{
+    height: 6px;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4px;
+    border-radius: 30px;
+}
+.Progress-bar .Progress{
+    height: 100%;
+    
+    background: #6990f2;
+    border-radius: inherit;
+}
+.Upload-area{
+    max-height: 230px;
+    overflow-y: scroll;
+}
+.Upload-area.onprogress{
+    max-height: 150px;
+}
+.Upload-area::-webkit-scrollbar{
+    width: 0px;
+}
+.Upload-area .row .content{
+    display: flex;
+    align-items: center;
+}
+.Upload-area .row .details{
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+}
+.Upload-area .details .size{
+    font-size: 11px;
+    color: #404040;
+
+}
+.Upload-area .fa-check{
+    color: #6990f2;
+    font-size: 16px;
+}
+img{
+    border-radius: 50%;
+    height: 55px;
+    width: 50px;
+}

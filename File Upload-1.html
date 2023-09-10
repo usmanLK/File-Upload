@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload</title>
+    <link rel="stylesheet" href="File Upload-2.css"/>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header>File Uploader Javascript</header>
+        <form action="#">
+            <input type="file" id="file-input" accept="image/jpeg" multiple hidden>
+            <i class="fas fa-cloud-upload-alt"></i>
+    <p>Browse any type of Image</p>
+    
+        </form>
+
+        <section id="progress-div" class="Progress-area">
+           
+            <li class="row">
+               <img src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" id="upload-img-preview"></img>
+               <div class="content">
+                <div class="details">
+                    <span id="fileName" class="name">filename.jpg</span>
+                    <span id="uploadPercentage" class="percent">0%</span>
+                </div>
+               <div class="Progress-bar">
+                <div style="width:10%"  class="Progress"></div>
+               </div>
+            </div>
+            </li>
+        </section>
+    </div>
+
+    <script src="File Upload-1.js"></script>
+    
+</body>
+</html>
