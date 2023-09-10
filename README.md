@@ -1,2 +1,2 @@
 # Image-Upload
-build a File-Upload with using css3 , html , js
+build a Image-Upload with using css3 , html , js
